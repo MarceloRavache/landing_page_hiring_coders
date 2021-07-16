@@ -1,0 +1,179 @@
+.home__header {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home__part-shape {
+    width: 100%;
+    height: 300px;
+}
+
+.custom-shape-divider-top-1626304743 {
+    position: absolute;
+    top: 1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1626304743 svg {
+    position: relative;
+    display: block;
+    width: calc(179% + 1.3px);
+    height: 458px;
+}
+
+.custom-shape-divider-top-1626304743 .shape-fill {
+    fill: #151413;
+}
+
+.custom-shape-divider-top-1626303685 {
+    position: absolute;
+    margin-top: 200px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1626303685 svg {
+    position: relative;
+    display: block;
+    width: calc(163% + 1.3px);
+    height: 362px;
+}
+
+.custom-shape-divider-top-1626303685 .shape-fill {
+    fill: #313131;
+}
+
+.home__header-image {
+    width: 1000px;
+    position: absolute;
+}
+
+.home__header-info {
+    position: absolute;
+    width: 400px;
+    top: 200px;
+    left: 260px;
+}
+.home__header-info h1 {
+    color: white;
+}
+.home__header-info h4 {
+    color: white;
+    font-weight: 300;
+}
+
+.home__header-buy {
+    position: absolute;
+    width: 200px;
+    top: 200px;
+    right: 0;
+    width: 300px;
+    margin-right: 100px;
+}
+.home__header-buy h2,h4 {
+    color: white;
+    margin-left: 5px;
+}
+
+.home__header-options {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    right: 0;
+    top: 700px;
+    display: flex;
+    margin-right: 400px;
+    align-items: center;
+}
+.home__header-option img {
+    width: 150px;
+    cursor: pointer;
+}
+
+.home__header-screen {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    animation-name: slideOut;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.home__header-screen-open {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.home__header-screen-close-button {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.home__screen-promotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-custom {
+    height: 50px;
+    padding: 4px 8px;
+    font-size: 24px;
+    border-radius: 12px;
+}

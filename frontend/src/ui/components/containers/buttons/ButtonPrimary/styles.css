@@ -1,0 +1,10 @@
+.button-primary-custom {
+    height: 50px;
+    padding: 0px 25px;
+    border-radius: 6px;
+    background-color: #313131;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0px;
+    color: white;
+}
