@@ -1,8 +1,11 @@
-import Home from './pages/Home';
-import Header from './ui/components/containers/surfaces/Header/Header';
+import Home from "./pages/Home";
 
 const App = () => {
-    return <><Home /></>
-}
+  return (
+    <>
+      <Home />
+    </>
+  );
+};
 
 export default App;
